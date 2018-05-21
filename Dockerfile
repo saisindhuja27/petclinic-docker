@@ -11,7 +11,7 @@ RUN mkdir /opt/aspectj && cd /opt/aspectj &&\
 ADD ./setenv.sh /tomcat/bin/setenv.sh
 
 # Pull petclinic
-RUN git clone https://github.com/stagemonitor/spring-petclinic.git
+RUN git clone https://github.com/saisindhuja27/spring-petclinic.git
 
 # Build petclinic
 WORKDIR /spring-petclinic
